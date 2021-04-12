@@ -12,4 +12,4 @@ String url = "jdbc:sqlserver://localhost;databaseName=BDSpotPer;user=[nome do us
 Para executar o código, também foi necessário instalar o driver para JDBC, baixado em "https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15".
 Isso envolveu dois passos:
 1. Adicionar o arquivo 'mssql-jdbc-9.2.1.jre15' (esse arquivo deve ser o compatível com a versão do Java sendo usada, que neste caso era Java 15) ao classpath do projeto.
-2. Copiar o arquivo '.dll' encontrado em enu>auth>x64 (seria x86 dependendo do computador) para a past 'bin' da instalação do Java no computador.
+2. Copiar o arquivo '.dll' encontrado em enu>auth>x64 (seria x86 dependendo do computador) para a pasta 'bin' da instalação do Java no computador.
