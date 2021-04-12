@@ -2,8 +2,11 @@
 Trabalho de FBD
 
 Para reproduzir o código corretamente, é possível que seja necessário alterar os parâmetros da conexão no início do arquivo SpotPer.java:
+
 String url = "jdbc:sqlserver://localhost;databaseName=BDSpotPer;integratedSecurity=true";
+
 Se a conexão no SQL Server Management Studio não for por autenticação do Windows, provavelmente será necessário passar os parâmetros da seguinte forma:
+
 String url = "jdbc:sqlserver://localhost;databaseName=BDSpotPer;user=[nome do usuario];password=[senha]";
 
 Para executar o código, também foi necessário instalar o driver para JDBC, baixado em "https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15".
